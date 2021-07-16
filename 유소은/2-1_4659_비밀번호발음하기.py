@@ -13,6 +13,7 @@ while (1):
 			flag = 1
 	if (flag == 0):
 		print("<" + s+ "> is not acceptable.")
+		continue
 
 	# 모음/자음 3개 연속인지, 같은 글자 두번 나오는지 확인
 	vowels_count = 0
